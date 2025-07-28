@@ -9,5 +9,5 @@ Feature: Register user
     And Click on Button ""
 
     Examples:
-      | url      |
-      | parasoft |
+      | url                    |
+      | https://www.google.com |

@@ -5,12 +5,6 @@ import io.cucumber.java.en.When;
 
 public class RegisterUserStepDefs {
 
-    @Given("I open {string}")
-    public void i_open(String string) {
-        // Write code here that turns the phrase above into concrete actions
-//        throw new io.cucumber.java.PendingException();
-        System.out.println("in I open {string}");
-    }
 
     @When("Click on {string}")
     public void click_on(String string) {
