@@ -13,5 +13,4 @@ public class CommonObject extends BasePage {
     public void openApp(String url) {
         webDriver.get(url);
     }
-
 }

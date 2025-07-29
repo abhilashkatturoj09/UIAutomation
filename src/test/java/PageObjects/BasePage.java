@@ -12,4 +12,8 @@ public class BasePage {
         this.webDriver = webDriver;
         webDriver.manage().timeouts().scriptTimeout(Duration.ofSeconds(600));
     }
+
+
+
+
 }
