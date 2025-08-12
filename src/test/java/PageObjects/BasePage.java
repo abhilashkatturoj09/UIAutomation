@@ -8,12 +8,14 @@ public class BasePage {
 
     WebDriver webDriver;
 
-    BasePage(WebDriver webDriver) {
+    public BasePage(WebDriver webDriver) {
         this.webDriver = webDriver;
         webDriver.manage().timeouts().scriptTimeout(Duration.ofSeconds(600));
     }
 
-
+    public void openApp(String url) {
+        webDriver.get(url);
+    }
 
 
 }

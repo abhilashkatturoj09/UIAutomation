@@ -10,4 +10,4 @@ Feature: Register user
 
     Examples:
       | url                    |
-      | https://www.google.com |
+      | https://www.facebook.com |
